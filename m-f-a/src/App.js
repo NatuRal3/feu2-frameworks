@@ -2,12 +2,12 @@ import React from "react";
 import BasicComponent from "./components/BasicComp";
 
 function App() {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <h1>Hello world</h1>
+      <BasicComponent />
+    </div>
+  );
 }
-
-function BasicComponent {
-  return 
-}
-
 
 export default App;
