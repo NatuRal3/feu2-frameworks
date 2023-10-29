@@ -1,15 +1,18 @@
 import React from "react";
 
 function ButtonComponent() {
-  function onButtonClick(value) {
+  function onButtonClickStatic() {
     console.log("Button is clickyTyClickingGood");
-    console.log(value);
+  }
+
+  function onButtonClickValue(value) {
+    console.log(value || "No Value");
   }
 
   return (
     <div>
-      <button onClick={onButtonClick}>Click It</button>
-      <button onClick={() => onButtonClick(42)}>TheNumber</button>
+      <button onClick={onButtonClickStatic}>Click It</button>
+      <button onClick={() => onButtonClickValue(42)}>TheNumber</button>
     </div>
   );
 }
