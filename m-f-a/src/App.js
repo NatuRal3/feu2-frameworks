@@ -2,6 +2,7 @@ import React from "react";
 import BasicComponent from "./components/BasicComp";
 import BasicProp from "./components/BasicProps";
 import ButtonComponent from "./buttons/onClick";
+import useStateApp from "./state/state";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <BasicComponent />
       <BasicProp title="BasicTitle" price={15.99} />
       <ButtonComponent />
+      <useStateApp />
     </div>
   );
 }
