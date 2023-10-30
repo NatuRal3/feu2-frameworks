@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import ButtonComponent from "../buttons/onClick";
 
 function useStateApp() {
   // Our counter state created here
