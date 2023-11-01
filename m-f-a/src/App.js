@@ -6,6 +6,7 @@ import UseStateApp from "./state/state";
 import Mapping from "./map/mapItems";
 import Variable from "./conditionalRendering/Variable";
 import TernaryOperator from "./conditionalRendering/ternaryOperator";
+import ShortCircut from "./conditionalRendering/ShortCircut";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Mapping />
       <Variable />
       <TernaryOperator />
+      <ShortCircut />
     </div>
   );
 }
