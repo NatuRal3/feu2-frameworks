@@ -4,6 +4,8 @@ import BasicProp from "./components/BasicProps";
 import ButtonComponent from "./buttons/onClick";
 import UseStateApp from "./state/state";
 import Mapping from "./map/mapItems";
+import Variable from "./conditionalRendering/Variable";
+import TernaryOperator from "./conditionalRendering/ternaryOperator";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <ButtonComponent />
       <UseStateApp />
       <Mapping />
+      <Variable />
+      <TernaryOperator />
     </div>
   );
 }
