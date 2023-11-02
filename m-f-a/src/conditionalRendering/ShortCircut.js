@@ -7,7 +7,7 @@ function ShortCircut() {
     <div>
       {isLoggedIn && (
         <>
-          <p>ShortCircut: If loged in and item is on sale </p>
+          <p>ShortCircut: If logedin and item is on sale </p>
           <ul>
             {products.map(
               (products) => products.isOnSale && <li key={products.id}>{products.title}</li>
