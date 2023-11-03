@@ -7,6 +7,7 @@ import Mapping from "./map/mapItems";
 import Variable from "./conditionalRendering/Variable";
 import TernaryOperator from "./conditionalRendering/ternaryOperator";
 import ShortCircut from "./conditionalRendering/ShortCircut";
+import "./styles.css";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <Variable />
       <TernaryOperator />
       <ShortCircut />
+
+      <p className="text">Paragraph 1</p>
     </div>
   );
 }
