@@ -8,10 +8,11 @@ import Variable from "./conditionalRendering/Variable";
 import TernaryOperator from "./conditionalRendering/ternaryOperator";
 import ShortCircut from "./conditionalRendering/ShortCircut";
 import "./styles.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Hello world</h1>
       <BasicComponent />
       <BasicProp title="BasicTitle" price={15.99} />
