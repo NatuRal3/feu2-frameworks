@@ -9,6 +9,7 @@ import TernaryOperator from "./conditionalRendering/ternaryOperator";
 import ShortCircut from "./conditionalRendering/ShortCircut";
 import "./styles.css";
 import styles from "./App.module.css";
+import "./styles.scss";
 
 function App() {
   return (
