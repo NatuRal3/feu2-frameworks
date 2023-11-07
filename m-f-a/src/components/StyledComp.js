@@ -3,7 +3,7 @@
 // import React from "react";
 // import styled from "styled-components";
 
-// const Item = styled.li`
+// const Item = styled.ul`
 //   background-color: ${(props) => (props.isActive ? "red" : "")};
 // `;
 

@@ -1,9 +1,10 @@
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
-    background: red;
+    height: 1400px;
+    width: 700px;
+    background: rgb(75, 75, 75);
     color: wheat;
 }
