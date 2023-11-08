@@ -12,6 +12,7 @@ import styles from "./App.module.css";
 import "./styles.scss";
 //import StyledComponent from "./components/StyledComp";
 import logo from "./img/logo.png";
+import useStateTF from "./state/useStateCase";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Variable />
       <TernaryOperator />
       <ShortCircut />
+      <useStateTF />
 
       <p className="text">Paragraph 1</p>
     </div>
