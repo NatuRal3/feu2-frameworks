@@ -13,6 +13,8 @@ import styles from "./App.module.css";
 import "./styles.scss";
 //import StyledComponent from "./components/StyledComp";
 import logo from "./img/logo.png";
+import UseEffectCase from "./state/UseEffect";
+import UseEffectRenderEveryTime from "./state/UseEffectRunEveryTime";
 
 function App() {
   return (
@@ -28,8 +30,9 @@ function App() {
       <TernaryOperator />
       <ShortCircut />
       <UseStateTF />
-
       <p className="text">Paragraph 1</p>
+      <UseEffectCase />
+      <UseEffectRenderEveryTime />
     </div>
   );
 }
