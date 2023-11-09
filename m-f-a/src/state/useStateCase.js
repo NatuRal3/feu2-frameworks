@@ -1,11 +1,9 @@
 import React from "react";
 import { useState } from "react";
 
-function useStateTF() {
-  // Our counter state created here
-  const [isActive, setIsActive] = useState(true);
-  // This function calls 'setCounter' and
-  // we increment 'counter' by 1
+function UseStateTF() {
+  const [isActive, setIsActive] = useState(false);
+
   function onButtonClickIsActive() {
     setIsActive(!isActive);
   }
@@ -16,4 +14,4 @@ function useStateTF() {
     </div>
   );
 }
-export default useStateTF;
+export default UseStateTF;

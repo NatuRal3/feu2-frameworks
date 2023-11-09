@@ -3,6 +3,7 @@ import BasicComponent from "./components/BasicComp";
 import BasicProp from "./components/BasicProps";
 import ButtonComponent from "./buttons/onClick";
 import UseStateApp from "./state/state";
+import UseStateTF from "./state/useStateCase";
 import Mapping from "./map/mapItems";
 import Variable from "./conditionalRendering/Variable";
 import TernaryOperator from "./conditionalRendering/ternaryOperator";
@@ -12,7 +13,6 @@ import styles from "./App.module.css";
 import "./styles.scss";
 //import StyledComponent from "./components/StyledComp";
 import logo from "./img/logo.png";
-import useStateTF from "./state/useStateCase";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <Variable />
       <TernaryOperator />
       <ShortCircut />
-      <useStateTF />
+      <UseStateTF />
 
       <p className="text">Paragraph 1</p>
     </div>
