@@ -15,6 +15,7 @@ import "./styles.scss";
 import logo from "./img/logo.png";
 import UseEffectCase from "./state/UseEffect";
 import UseEffectRenderEveryTime from "./state/UseEffectRunEveryTime";
+import UseEffectRunWhenCompIsMounted from "./state/UseEffectRunWhenCompIsMounted";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <p className="text">Paragraph 1</p>
       <UseEffectCase />
       <UseEffectRenderEveryTime />
+      <UseEffectRunWhenCompIsMounted />
     </div>
   );
 }
