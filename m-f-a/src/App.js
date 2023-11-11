@@ -16,6 +16,7 @@ import logo from "./img/logo.png";
 import UseEffectCase from "./state/UseEffect";
 import UseEffectRenderEveryTime from "./state/UseEffectRunEveryTime";
 import UseEffectRunWhenCompIsMounted from "./state/UseEffectRunWhenCompIsMounted";
+import UseEffectCleanUpFunction from "./state/UseEffectCleanUpFunction";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <UseEffectCase />
       <UseEffectRenderEveryTime />
       <UseEffectRunWhenCompIsMounted />
+      <UseEffectCleanUpFunction />
     </div>
   );
 }
