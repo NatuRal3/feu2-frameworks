@@ -17,6 +17,7 @@ import UseEffectCase from "./state/UseEffect";
 import UseEffectRenderEveryTime from "./state/UseEffectRunEveryTime";
 import UseEffectRunWhenCompIsMounted from "./state/UseEffectRunWhenCompIsMounted";
 import UseEffectCleanUpFunction from "./state/UseEffectCleanUpFunction";
+import UseEffectCleanUpFunctionV2 from "./state/UseEffectCleanUpFunctionv2";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <UseEffectRenderEveryTime />
       <UseEffectRunWhenCompIsMounted />
       <UseEffectCleanUpFunction />
+      <UseEffectCleanUpFunctionV2 />
     </div>
   );
 }
