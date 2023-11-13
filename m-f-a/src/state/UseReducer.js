@@ -8,6 +8,8 @@ function reducer(state, action) {
       return { count: state.count + 1 };
     case "decrement":
       return { count: state.count - 1 };
+    case "payloadAmount":
+      return { count: state.count + action.payload };
     case "reset":
       return { count: 0 };
     default:
@@ -22,6 +24,7 @@ function UseReducerV1() {
       <div>Count: {state.count}</div>
       <button onClick={() => dispatch({ type: "increment" })}>PLUS</button>
       <button onClick={() => dispatch({ type: "decrement" })}>MINUS</button>
+      <button onClick={() => dispatch({ type: "payloadAmount", payload: 10 })}>Add 10</button>
       <button onClick={() => dispatch({ type: "reset" })}>RESET</button>
     </div>
   );
