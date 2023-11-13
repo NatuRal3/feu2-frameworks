@@ -18,6 +18,7 @@ import UseEffectRenderEveryTime from "./state/UseEffectRunEveryTime";
 import UseEffectRunWhenCompIsMounted from "./state/UseEffectRunWhenCompIsMounted";
 import UseEffectCleanUpFunction from "./state/UseEffectCleanUpFunction";
 import UseEffectCleanUpFunctionV2 from "./state/UseEffectCleanUpFunctionv2";
+import UseReducerV1 from "./state/UseReducer";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
       <UseEffectRunWhenCompIsMounted />
       <UseEffectCleanUpFunction />
       <UseEffectCleanUpFunctionV2 />
+      <UseReducerV1 />
     </div>
   );
 }
