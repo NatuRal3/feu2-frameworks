@@ -19,6 +19,7 @@ import UseEffectRunWhenCompIsMounted from "./state/UseEffectRunWhenCompIsMounted
 import UseEffectCleanUpFunction from "./state/UseEffectCleanUpFunction";
 import UseEffectCleanUpFunctionV2 from "./state/UseEffectCleanUpFunctionv2";
 import UseReducerV1 from "./state/UseReducer";
+import UseReducerShoppingCart from "./state/UseReducerShoppingCart";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <UseEffectCleanUpFunction />
       <UseEffectCleanUpFunctionV2 />
       <UseReducerV1 />
+      <UseReducerShoppingCart />
     </div>
   );
 }
