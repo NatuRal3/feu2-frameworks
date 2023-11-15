@@ -22,6 +22,7 @@ import UseReducerV1 from "./state/UseReducer";
 import UseReducerShoppingCart from "./state/UseReducerShoppingCart";
 import UseContextV1 from "./state/UseContextV1";
 import UseContextV2 from "./state/UseContextV2";
+import UseContextV3 from "./state/UseContextV3";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
       <UseReducerShoppingCart />
       <UseContextV1 />
       <UseContextV2 />
+      <UseContextV3 />
     </div>
   );
 }
