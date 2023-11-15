@@ -20,6 +20,7 @@ import UseEffectCleanUpFunction from "./state/UseEffectCleanUpFunction";
 import UseEffectCleanUpFunctionV2 from "./state/UseEffectCleanUpFunctionv2";
 import UseReducerV1 from "./state/UseReducer";
 import UseReducerShoppingCart from "./state/UseReducerShoppingCart";
+import UseContextV1 from "./state/UseContextV1";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <UseEffectCleanUpFunctionV2 />
       <UseReducerV1 />
       <UseReducerShoppingCart />
+      <UseContextV1 />
     </div>
   );
 }
