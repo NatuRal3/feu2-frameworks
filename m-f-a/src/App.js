@@ -54,6 +54,7 @@ function App() {
       {/* <ZustandV1 /> */}
       {/* <ZustandV2 /> */}
       <div>Placeholder</div>
+      <div>Placeholder2</div>
     </div>
   );
 }
