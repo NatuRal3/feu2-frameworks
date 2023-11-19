@@ -23,8 +23,6 @@ import UseReducerShoppingCart from "./state/UseReducerShoppingCart";
 import UseContextV1 from "./state/UseContextV1";
 import UseContextV2 from "./state/UseContextV2";
 import UseContextV3 from "./state/UseContextV3";
-// import ZustandV1 from "./zustand/ZustandV1";
-// import ZustandV2 from "./zustand/ZustandV2";
 
 function App() {
   return (
@@ -51,10 +49,6 @@ function App() {
       <UseContextV1 />
       <UseContextV2 />
       <UseContextV3 />
-      {/* <ZustandV1 /> */}
-      {/* <ZustandV2 /> */}
-      <div>Placeholder</div>
-      <div>Placeholder2</div>
     </div>
   );
 }
