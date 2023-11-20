@@ -23,33 +23,71 @@ import UseReducerShoppingCart from "./state/UseReducerShoppingCart";
 import UseContextV1 from "./state/UseContextV1";
 import UseContextV2 from "./state/UseContextV2";
 import UseContextV3 from "./state/UseContextV3";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+function Home() {
+  return <div>Home</div>;
+}
+
+function Products() {
+  return <div>Products</div>;
+}
+
+function RouteNotFound() {
+  return <div>Page not found</div>;
+}
+
+function Nav() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/products">Products</Link>
+        </li>
+      </ul>
+    </nav>
+  );
+}
 
 function App() {
   return (
-    <div className={styles.container}>
-      <img src={logo} />
-      <h1>Hello world</h1>
-      <BasicComponent />
-      <BasicProp title="BasicTitle" price={15.99} />
-      <ButtonComponent />
-      <UseStateApp />
-      <Mapping />
-      <Variable />
-      <TernaryOperator />
-      <ShortCircut />
-      <UseStateTF />
-      <p className="text">Paragraph 1</p>
-      <UseEffectCase />
-      <UseEffectRenderEveryTime />
-      <UseEffectRunWhenCompIsMounted />
-      <UseEffectCleanUpFunction />
-      <UseEffectCleanUpFunctionV2 />
-      <UseReducerV1 />
-      <UseReducerShoppingCart />
-      <UseContextV1 />
-      <UseContextV2 />
-      <UseContextV3 />
-    </div>
+    <>
+      <div className={styles.container}>
+        <img src={logo} />
+        <h1>Hello world</h1>
+        <BasicComponent />
+        <BasicProp title="BasicTitle" price={15.99} />
+        <ButtonComponent />
+        <UseStateApp />
+        <Mapping />
+        <Variable />
+        <TernaryOperator />
+        <ShortCircut />
+        <UseStateTF />
+        <p className="text">Paragraph 1</p>
+        <UseEffectCase />
+        <UseEffectRenderEveryTime />
+        <UseEffectRunWhenCompIsMounted />
+        <UseEffectCleanUpFunction />
+        <UseEffectCleanUpFunctionV2 />
+        <UseReducerV1 />
+        <UseReducerShoppingCart />
+        <UseContextV1 />
+        <UseContextV2 />
+        <UseContextV3 />
+        <div>
+          <Nav />
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="products" element={<Products />} />
+            <Route path="*" element={<RouteNotFound />} />
+          </Routes>
+        </div>
+      </div>
+    </>
   );
 }
 
