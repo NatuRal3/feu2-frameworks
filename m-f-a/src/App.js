@@ -25,7 +25,8 @@ import UseContextV1 from "./state/UseContextV1";
 import UseContextV2 from "./state/UseContextV2";
 import UseContextV3 from "./state/UseContextV3";
 import ApiCalls from "./api/ApiCalls";
-
+// import ApiCallsRouteParams from "./api/ApiCallsRouteParams";
+// Gives Error
 function App() {
   return (
     <div className={styles.container}>
@@ -52,6 +53,7 @@ function App() {
       <UseContextV2 />
       <UseContextV3 />
       <ApiCalls />
+      {/* <ApiCallsRouteParams /> */}
     </div>
   );
 }
