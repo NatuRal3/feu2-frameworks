@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-/**
- * Our API hook
- */
 function useApi(url) {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
