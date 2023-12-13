@@ -20,24 +20,5 @@ function useApi(url) {
         setIsLoading(false);
       }
     }
-
-    getData();
-  }, [url]);
-  return { data, isLoading, isError };
+  });
 }
-
-function App() {
-  const { data, isLoading, isError } = useApi("https://jsonplaceholder.typicode.com/todos");
-
-  if (isLoading) {
-    return <div>Loading</div>;
-  }
-
-  if (isError) {
-    return <div>Error</div>;
-  }
-
-  return <div>Data loaded</div>;
-}
-
-export default App;
