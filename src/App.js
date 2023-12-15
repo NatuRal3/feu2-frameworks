@@ -28,6 +28,9 @@ import ApiCalls from "./api/ApiCalls";
 import HomeMadeHook from "./hooks/usePerson";
 // import ApiCallsRouteParams from "./api/ApiCallsRouteParams";
 // Gives Error
+import ControlledForm from "./forms/ControlledComp";
+import ControlledForm2 from "./forms/ControlledComp2";
+
 function App() {
   return (
     <div className={styles.container}>
@@ -56,6 +59,8 @@ function App() {
       <ApiCalls />
       <HomeMadeHook />
       {/* <ApiCallsRouteParams /> */}
+      <ControlledForm />
+      <ControlledForm2 />
     </div>
   );
 }
