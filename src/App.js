@@ -30,6 +30,7 @@ import HomeMadeHook from "./hooks/usePerson";
 // Gives Error
 import ControlledForm from "./forms/ControlledComp";
 import ControlledForm2 from "./forms/ControlledComp2";
+import ControlledComp3 from "./forms/ControlledComp3Multi";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
       {/* <ApiCallsRouteParams /> */}
       <ControlledForm />
       <ControlledForm2 />
+      <ControlledComp3 />
     </div>
   );
 }
