@@ -31,6 +31,7 @@ import HomeMadeHook from "./hooks/usePerson";
 import ControlledForm from "./forms/ControlledComp";
 import ControlledForm2 from "./forms/ControlledComp2";
 import ControlledComp3 from "./forms/ControlledComp3Multi";
+import ControlledComp4WSub from "./forms/ControlledComp4WithSubmit";
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
       <ControlledForm />
       <ControlledForm2 />
       <ControlledComp3 />
+      <ControlledComp4WSub />
     </div>
   );
 }
