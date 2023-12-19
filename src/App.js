@@ -32,6 +32,9 @@ import ControlledForm from "./forms/ControlledComp";
 import ControlledForm2 from "./forms/ControlledComp2";
 import ControlledComp3 from "./forms/ControlledComp3Multi";
 import ControlledComp4WSub from "./forms/ControlledComp4WithSubmit";
+import ReactHookForm1 from "./forms/ReactHookForm1";
+import ReactHookFormYup2 from "./forms/ReactHookFormYup2";
+import ReactHookFormYup3 from "./forms/ReactHookFormYup3";
 
 function App() {
   return (
@@ -65,6 +68,9 @@ function App() {
       <ControlledForm2 />
       <ControlledComp3 />
       <ControlledComp4WSub />
+      <ReactHookForm1 />
+      <ReactHookFormYup2 />
+      <ReactHookFormYup3 />
     </div>
   );
 }
